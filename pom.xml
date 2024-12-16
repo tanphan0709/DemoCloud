@@ -25,7 +25,10 @@
 	</properties>
 
 	<dependencies>
-
+		<dependency>
+        		<groupId>org.springframework.boot</groupId>
+        		<artifactId>spring-boot-starter</artifactId>
+    		</dependency>
 		<!-- <dependency> <groupId>javax.servlet</groupId> <artifactId>javax.servlet-api</artifactId> 
 			<version>3.1.0</version> <scope>provided</scope> </dependency> -->
 
@@ -108,6 +111,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>2.7.15</version> <!-- Hoặc phiên bản Spring Boot của bạn -->
 			</plugin>
 
 			<plugin>
