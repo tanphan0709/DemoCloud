@@ -137,9 +137,9 @@
 			</plugin>
 
 			<plugin>
-				<groupId>com.google.appengine</groupId>
-				<artifactId>appengine-maven-plugin</artifactId>
-				<version>2.4.2</version>
+			    <groupId>com.google.cloud.tools</groupId>
+			    <artifactId>appengine-maven-plugin</artifactId>
+			    <version>2.4.2</version> <!-- Thử sử dụng phiên bản khác -->
 			</plugin>
 			<plugin>
             			<groupId>org.apache.maven.plugins</groupId>
